@@ -3,8 +3,11 @@
   "version": "1.1.0",
   "description": "test npm",
   "main": "index.js",
+  "devDependencies": {
+    "jshint": "^2.9.4"
+  },
   "scripts": {
-    "test": "test it"
+    "lint": "jshint index.js"
   },
   "repository": {
     "type": "git",
