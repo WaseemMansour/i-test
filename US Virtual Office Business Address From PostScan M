@@ -1,0 +1,454 @@
+US Virtual Office Business Address From PostScan Mail
+
+
+
+<!-- Waseem - Begin -->
+
+<style>
+a.block-action {
+    box-sizing: content-box;
+}
+
+#page-title {
+display: none;
+}
+
+h1.title {
+    margin: 40px 0;
+}
+
+h3 {
+    margin-bottom: 30px !important;
+}
+
+.blue_bg {
+    background: #0066cc !important;
+    color: #fff;
+    padding-bottom: 40px;
+}
+
+.blue_bg h1,
+.blue_bg h2,
+.blue_bg h3,
+.blue_bg h4,
+.blue_bg h5,
+.blue_bg h6 {
+    text-shadow: none;
+    margin: 30px 0;
+    color: #fff;
+    line-height: 1.5;
+}
+
+#page-title {
+    text-align: center;
+    margin: 40px 0;
+}
+
+.text-center {
+  text-align: center !important;
+}
+
+.main_intro {
+    width: 70%;
+    margin: 30px auto 0;  
+}
+
+.text-grey {
+    color: initial;
+}
+
+.cta-section {
+    background-color: #F7F7F7;
+    border-radius: 6px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.cta-section .text {
+    display: inline-block;
+}
+
+.cta-section .cta-btn:visited {
+    border: 2px solid #0095f8;
+    /*background-color: white;*/
+    color: #0095f8;
+    text-decoration: none;
+}
+
+.cta-section .cta-btn {
+    margin-left: 10px;
+    margin-top: 10px;
+    background-color: #0095f8;
+    color: white;
+    border-radius: 4px;
+    border: 2px solid #0095f8;
+    vertical-align: top;
+    padding: 7px 15px;
+    font-family: 'Lato', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+
+
+.cta-section .cta-btn.cta-trial {
+
+    background: #ffa500;
+
+/*  background: -moz-linear-gradient(top,#fecb00 0,#ff7c02 100%);
+    background: -webkit-gradient(linear,left top,left bottom,color-stop(0,#fecb00),color-stop(100%,#ff7c02));
+    background: -webkit-linear-gradient(top,#fecb00 0,#ff7c02 100%);
+    background: -o-linear-gradient(top,#fecb00 0,#ff7c02 100%);
+    background: -ms-linear-gradient(top,#fecb00 0,#ff7c02 100%);
+    background: linear-gradient(to bottom,#fecb00 0,#ff7c02 100%);  */  
+    /*background-image: url(message.png);*/
+    background-position: 25% center;
+    background-repeat: no-repeat;
+    /*padding-right: 40px !important;*/
+    min-width: 180px;
+    display: inline-block;
+    min-height: 35px;
+    line-height: 35px;
+    color: #fff !important;
+    margin-top: 0 !important;
+    border-color: orange;
+    position: relative;
+    text-shadow: none;
+    font: normal 26px/38px 'RobotoLight';    
+}
+
+.cta-section .cta-btn.cta-trial:before {
+    position: absolute;
+    content: '';
+    /*background: url(message.png);*/
+    right: 20%;
+    top: 18%;
+    width: 32px;
+    height: 32px;
+}
+
+.cta-section .text h2 {
+    font-family: 'Lato', sans-serif;
+    line-height: 30px;
+    font-size: 30px;
+    font-weight: 700;
+    color: #212121;
+    margin-bottom: 10px;
+}
+
+.cta-section .text h3 {
+    /*font-family: 'Lato', sans-serif;*/
+    font-size: 18px;
+    font-weight: 300;
+    color: #212121;
+    text-align: right;
+}
+
+.page-wrapper {
+    margin: 50px 10px 10px 10px;
+}
+
+.breadcrumb {
+    background-color: transparent;
+    border-bottom: 1px solid #e9e5e5;
+    border-radius: 0px;
+}
+
+.breadcrumb>li {
+    margin-bottom: 5px;
+}
+
+.breadcrumb a {
+    color: #0095f8;
+}
+
+.breadcrumb>.active {
+    color: #777;
+}
+
+.breadcrumb>li+li:before {
+    padding: 0 5px;
+    color: #ccc;
+    content: "/\00a0";
+}
+
+.clearboth {
+    clear: both;
+}
+
+.innerpages-howto {
+    margin-bottom: 40px;
+}
+
+.midrow,
+.innerpages-howto h2 {
+    margin: 50px 0 !important;
+}
+
+.innerpages-howto h3 {
+    margin-bottom: 10px !important;
+}
+
+.mob_visible {
+    display: none;
+}
+
+.mob_hidden {
+    display: block;
+}
+
+@media screen and (max-width: 768px) {
+    .container-12 .grid-5, .container-12 .grid-6, .container-12 .grid-12 {
+        width: 95% !important;
+        margin: 0 auto;
+        float: none;
+        display: block;
+    }
+
+    .mob_visible {
+        display: block !important;
+    }
+
+    .mob_hidden {
+        display: none !important;
+    }
+}
+/* virtual */
+
+.blue_bg .cta-section {
+    background: transparent;
+    border: 1px solid #fff;
+    margin-top: 40px;
+}
+
+.blue_bg .cta-section .text h2, .blue_bg .cta-section .text h3 {
+    margin: 0;
+    color: #fff;
+}
+
+.blue_bg .cta-section .text h3 {
+    margin-bottom: 0 !important;
+}
+
+/* virtual - end */
+
+/* online shopping */
+
+ul.shippingsteps {
+    margin-top: 30px;
+}
+
+.shippingsteps li {
+  line-height: 2.5;
+  background: url(tick-inside-circle.png);
+  background-position: left center;
+  background-repeat: no-repeat;
+  text-indent: 34px;
+}
+
+.zone-preface-wrapper {
+  margin-top: 0;
+}
+
+.blue_bg ~ .section-content {
+    padding-top: 1px;
+}
+
+/* online shopping */
+
+</style>
+
+
+
+<!-- Waseem - End --> 
+<div class="page-wrapper">
+            <ol class="breadcrumb">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Virtual Address</a></li>
+                <li class="active">Virtual Business</li>
+            </ol>      
+      </div>
+
+<h1 class="title text-center" id="page">US Virtual Office Business Address From PostScan Mail</h1>
+
+<p class="text-center"><img src="https://www.postscanmail.com/sites/default/files/virtual-address.jpg" alt="US Virtual Office Business Address From PostScan Mail" width="400" height="300"></p>
+<p class="main_intro text-center" dir="ltr"><strong>S</strong>ecure a U.S. presence for your work and have a place in the international business lounge without spending too much on office space. PostScan Mail offers you a unique <a href="https://www.postscanmail.com/services/virtual-address/po-box-with-street-address">virtual address service</a> and <a href="https://www.postscanmail.com/services/mail/forwarding">mail forwarding smart solutions</a>.</p>
+<p class="MsoNormal">&nbsp;</p>
+<h3 class="text-center text-grey">Why you should try PostScan Mail?</h3>
+<p class="MsoNormal"><a name="OLE_LINK16" id="OLE_LINK16"></a><a name="OLE_LINK15" id="OLE_LINK15"></a>Enjoya smart solution of postal mail forwarding.Receive your postal mail and packages wherever you are. It is convenient and innovative. PostScan Mail receives your postal mail, scan the envelopes, upload them to your online mailbox and notifies you. Choose to open and scan your postal mail, store it, shred it or forward it wherever you want. If you are a frequent traveler, or seeking a better life style; PostScan Mail is all what you are looking for.</p>
+<p class="MsoNormal">&nbsp;</p>
+
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </article>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="section section-content blue_bg">
+    <div id="zone-content-wrapper" class="zone-wrapper zone-content-wrapper clearfix">
+        <div class="zone zone-content clearfix container-12">
+            <h2 class="text-center">PostScan Mail Service Highlights</h2>
+            <div class="grid-6 region region-content" id="region-content">
+                <div class="region-inner region-content-inner">
+                    <div class="block block-system block-main block-system-main odd block-without-title" id="block-system-main">
+                        <div class="block-inner clearfix">
+                            <div class="content clearfix">
+                                <article about="/services/mail/forwarding" typeof="foaf:Document" class="node node-page node-published node-not-promoted node-not-sticky author-abdelrahman even clearfix" id="node-page-70">
+                                    <div class="content clearfix">
+                                        <div class="field field-name-body field-type-text-with-summary field-label-hidden">
+                                            <div class="field-items">
+                                                <div class="field-item even" property="content:encoded">
+                                                    <h4 class="text-center">Manage your postal mail 24/7 wherever you are</h4>
+
+                                                    <p class="MsoNormal">Post Scan Mail is authorized to receive your postal mail and packages on your behalf. Once you are notified of your incoming mail, you can choose to scan, forward, or store your items and you can check them later online wherever you are. PostScan Mail virtual office business address will connect you with your customers and open up new horizons for your business. Check your mail even if your travel constantly. Enjoy a professional staff and unlimited support 24/7.</p>
+
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </article>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="grid-6 region region-content" id="region-content">
+                <div class="region-inner region-content-inner">
+                    <div class="block block-system block-main block-system-main odd block-without-title" id="block-system-main">
+                        <div class="block-inner clearfix">
+                            <div class="content clearfix">
+                                <article about="/services/mail/forwarding" typeof="foaf:Document" class="node node-page node-published node-not-promoted node-not-sticky author-abdelrahman even clearfix" id="node-page-70">
+                                    <div class="content clearfix">
+                                        <div class="field field-name-body field-type-text-with-summary field-label-hidden">
+                                            <div class="field-items">
+                                                <div class="field-item even" property="content:encoded">
+                                                    <h4 class="text-center">Innovative solutions to receive Mail and packages</h4>
+
+                                                    <p class="MsoNormal">Choose from over 25 nationwide locations. Get a prestigious address and give your business a professional image. Assign several users and recipients for your mailbox. Secured and convenient mail and packages handling. Bring together your small packages into one to reduce expenses. Store essential packages and postal mail. Deposit your checks and pay your bills. We offer you ultimate level of privacy and security.</p>
+
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </article>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+          </div>
+          <div class="zone zone-content clearfix container-12">
+            <div class="grid-12 region region-content" id="region-content">
+                <div class="region-inner region-content-inner">
+                    <div class="block block-system block-main block-system-main odd block-without-title" id="block-system-main">
+                        <div class="block-inner clearfix">
+                            <div class="content clearfix">
+                                <article about="/services/mail/forwarding" typeof="foaf:Document" class="node node-page node-published node-not-promoted node-not-sticky author-abdelrahman even clearfix" id="node-page-70">
+                                    <div class="content clearfix">
+                                        <div class="field field-name-body field-type-text-with-summary field-label-hidden">
+                                            <div class="field-items">
+                                                <div class="field-item even" property="content:encoded">
+                                                    <h4 class="text-center">Real postal address</h4>
+
+                                                    <p class="MsoNormal">Receive a real USA street address not just a P.O. Box. Register your business and have bank account. Give your business more reliability and keep connected with your international partners and customers. Use this address on your business cards, company website and marketing materials. Get real competitive shipping deals and bring together your small packages into one to reduce your costs. We take you to an ultimate level of privacy and security!</p>
+
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </article>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="zone zone-content clearfix container-12">
+            <div class="grid-6 region region-content" id="region-content">
+                <div class="region-inner region-content-inner">
+                    <div class="block block-system block-main block-system-main odd block-without-title" id="block-system-main">
+                        <div class="block-inner clearfix">
+                            <div class="content clearfix">
+                                <article about="/services/mail/forwarding" typeof="foaf:Document" class="node node-page node-published node-not-promoted node-not-sticky author-abdelrahman even clearfix" id="node-page-70">
+                                    <div class="content clearfix">
+                                        <div class="field field-name-body field-type-text-with-summary field-label-hidden">
+                                            <div class="field-items">
+                                                <div class="field-item even" property="content:encoded">
+                                                    <h4 class="text-center">There is nothing like privacy</h4>
+
+                                                    <p class="MsoNormal">Privacy- exactly like the mail handling process itself is a basic requirement. Enjoy the fantastic advances in the field of electronic mail without any danger to your individual privacy. You are safe with us and we are authorized to handle your mail on your behalf. Your data is protected and your mail is handled by security professionals.</p>
+
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </article>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="grid-6 region region-content" id="region-content">
+                <div class="region-inner region-content-inner">
+                    <div class="block block-system block-main block-system-main odd block-without-title" id="block-system-main">
+                        <div class="block-inner clearfix">
+                            <div class="content clearfix">
+                                <article about="/services/mail/forwarding" typeof="foaf:Document" class="node node-page node-published node-not-promoted node-not-sticky author-abdelrahman even clearfix" id="node-page-70">
+                                    <div class="content clearfix">
+                                        <div class="field field-name-body field-type-text-with-summary field-label-hidden">
+                                            <div class="field-items">
+                                                <div class="field-item even" property="content:encoded">
+                                                    <h4 class="text-center">Special storage: keep your packages safe</h4>
+
+                                                    <p class="MsoNormal">Receive and ship packages easier through virtual address. Enjoy smart solutions to store your packages or to forward them to any destination. PostScan mail packages storages an ideal solution for frequent travelers, entrepreneurs, attorneys and expats. We scan the packages for you and we can even scan its content and you decide whether to forward or store it. Your packages are always safe!</p>
+
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </article>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="grid-12 region region-content" id="region-content">
+                <div class="region-inner region-content-inner">
+                    <div class="block block-system block-main block-system-main odd block-without-title" id="block-system-main">
+                        <div class="block-inner clearfix">
+                            <div class="content clearfix">
+                                <article about="/services/mail/forwarding" typeof="foaf:Document" class="node node-page node-published node-not-promoted node-not-sticky author-abdelrahman even clearfix" id="node-page-70">
+                                    <div class="content clearfix">
+                                        <div class="field field-name-body field-type-text-with-summary field-label-hidden">
+                                            <div class="field-items">
+                                                <div class="field-item even" property="content:encoded">
+                                                    <div class="cta-section clearfix">
+                                                      <div class="text">
+                                                          <h2 class="text-grey">View Your Postal Mail Anywhere!</h2>
+                                                          <h3 class="text-grey">Claim Your Free Trial Now</h3>
+                                                      </div>
+                                                      <a href="https://www.postscanmail.com/pricing.html" class="cta-btn cta-trial">Get Started</a>
+                                                  </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </article>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

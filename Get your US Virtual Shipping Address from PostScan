@@ -1,0 +1,309 @@
+Get your US Virtual Shipping Address from PostScan Mail
+
+
+
+
+
+<!-- Waseem - Begin -->
+
+<style>
+a.block-action {
+    box-sizing: content-box;
+}
+
+#page-title {
+display: none;
+}
+
+h1.title {
+    margin: 40px 0;
+}
+
+h3 {
+    margin-bottom: 30px !important;
+}
+
+.blue_bg {
+    background: #0066cc !important;
+    color: #fff;
+    padding-bottom: 40px;
+}
+
+.blue_bg h1,
+.blue_bg h2,
+.blue_bg h3,
+.blue_bg h4,
+.blue_bg h5,
+.blue_bg h6 {
+    text-shadow: none;
+    margin: 30px 0;
+    color: #fff;
+    line-height: 1.5;
+}
+
+#page-title {
+    text-align: center;
+    margin: 40px 0;
+}
+
+.text-center {
+  text-align: center !important;
+}
+
+.main_intro {
+    width: 70%;
+    margin: 30px auto 0;  
+}
+
+.text-grey {
+    color: initial;
+}
+
+.cta-section {
+    background-color: #F7F7F7;
+    border-radius: 6px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.cta-section .text {
+    display: inline-block;
+}
+
+.cta-section .cta-btn:visited {
+    border: 2px solid #0095f8;
+    /*background-color: white;*/
+    color: #0095f8;
+    text-decoration: none;
+}
+
+.cta-section .cta-btn {
+    margin-left: 10px;
+    margin-top: 10px;
+    background-color: #0095f8;
+    color: white;
+    border-radius: 4px;
+    border: 2px solid #0095f8;
+    vertical-align: top;
+    padding: 7px 15px;
+    font-family: 'Lato', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+
+
+.cta-section .cta-btn.cta-trial {
+
+    background: #ffa500;
+
+/*  background: -moz-linear-gradient(top,#fecb00 0,#ff7c02 100%);
+    background: -webkit-gradient(linear,left top,left bottom,color-stop(0,#fecb00),color-stop(100%,#ff7c02));
+    background: -webkit-linear-gradient(top,#fecb00 0,#ff7c02 100%);
+    background: -o-linear-gradient(top,#fecb00 0,#ff7c02 100%);
+    background: -ms-linear-gradient(top,#fecb00 0,#ff7c02 100%);
+    background: linear-gradient(to bottom,#fecb00 0,#ff7c02 100%);  */  
+    /*background-image: url(message.png);*/
+    background-position: 25% center;
+    background-repeat: no-repeat;
+    /*padding-right: 40px !important;*/
+    min-width: 180px;
+    display: inline-block;
+    min-height: 35px;
+    line-height: 35px;
+    color: #fff !important;
+    margin-top: 0 !important;
+    border-color: orange;
+    position: relative;
+    text-shadow: none;
+    font: bold 26px/38px 'RobotoLight';    
+}
+
+.cta-section .cta-btn.cta-trial:before {
+    position: absolute;
+    content: '';
+    /*background: url(message.png);*/
+    right: 20%;
+    top: 18%;
+    width: 32px;
+    height: 32px;
+}
+
+.cta-section .text h2 {
+    font-family: 'Lato', sans-serif;
+    line-height: 30px;
+    font-size: 30px;
+    font-weight: 700;
+    color: #212121;
+    margin-bottom: 10px;
+}
+
+.cta-section .text h3 {
+    /*font-family: 'Lato', sans-serif;*/
+    font-size: 18px;
+    font-weight: 300;
+    color: #212121;
+    text-align: right;
+}
+
+.page-wrapper {
+    margin: 50px 10px 10px 10px;
+}
+
+.breadcrumb {
+    background-color: transparent;
+    border-bottom: 1px solid #e9e5e5;
+    border-radius: 0px;
+}
+
+.breadcrumb>li {
+    margin-bottom: 5px;
+}
+
+.breadcrumb a {
+    color: #0095f8;
+}
+
+.breadcrumb>.active {
+    color: #777;
+}
+
+.breadcrumb>li+li:before {
+    padding: 0 5px;
+    color: #ccc;
+    content: "/\00a0";
+}
+
+.clearboth {
+    clear: both;
+}
+
+.innerpages-howto {
+    margin-bottom: 40px;
+}
+
+.midrow,
+.innerpages-howto h2 {
+    margin: 50px 0 !important;
+}
+
+.innerpages-howto h3 {
+    margin-bottom: 10px !important;
+}
+
+.mob_visible {
+    display: none;
+}
+
+.mob_hidden {
+    display: block;
+}
+
+@media screen and (max-width: 768px) {
+    .container-12 .grid-5, .container-12 .grid-6, .container-12 .grid-12 {
+        width: 95% !important;
+        margin: 0 auto;
+        float: none;
+        display: block;
+    }
+
+    .mob_visible {
+        display: block !important;
+    }
+
+    .mob_hidden {
+        display: none !important;
+    }
+}
+
+
+/* online shopping */
+
+ul.shippingsteps {
+    margin-top: 30px;
+}
+
+.shippingsteps li {
+  line-height: 2.5;
+  background: url(sites/all/themes/psm/css/images/tick-inside-circle.png);
+  background-position: left center;
+  background-repeat: no-repeat;
+  text-indent: 34px;
+}
+
+.zone-preface-wrapper {
+  margin-top: 0;
+}
+
+.blue_bg ~ .section-content {
+    padding-top: 1px;
+}
+
+.blue_bg a, .blue_bg a:link, .blue_bg a:active, .blue_bg a:visited, .blue_bg a:focus {
+    color: #fff;
+    text-decoration: underline;
+}
+
+/* online shopping */
+
+</style>
+
+<!-- Waseem - End --> 
+
+<div class="page-wrapper">
+            <ol class="breadcrumb">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Virtual Address</a></li>
+                <li class="active">Virtual Shipping Address</li>
+            </ol>      
+      </div>
+
+<h1 class="title text-center" id="page">Get your US Virtual Shipping Address from PostScan Mail</h1>
+
+<p class="text-center"><img src="https://www.postscanmail.com/sites/all/themes/psm/css/images/mail_package_forwarding_icon.png" alt="Virtual Shipping Address from PostScan Mail" width="400" height="300"></p>
+    <p class="main_intro text-center" dir="ltr"><strong>D</strong>o you like shopping from USA stores but are frequently challenged by the fact that many of them will not ship outside the United States? With PostScan Mail, you can now shop the way you like and get your packages securely and instantly shipped to your address wherever it is.<br><br><br></p>
+
+                                                  <div class="cta-section clearfix">
+                                                      <div class="text">
+                                                          <h2 class="text-grey">Get access to great deals form USA online retailers</h2>
+                                                          <h3 class="text-grey">leverage fast processing of your shipments and enjoy free storage of your items at our facility.</h3>
+                                                      </div>
+                                                      <a href="https://www.postscanmail.com/pricing.html" class="cta-btn cta-trial">Get Started</a>
+                                                  </div>
+
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </article>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="section section-content blue_bg">
+    <div id="zone-content-wrapper" class="zone-wrapper zone-content-wrapper clearfix">
+        <div class="zone zone-content clearfix container-12">
+            <h2 class="text-center text-grey">Receive a U.S. Virtual Address<br>for Online Shopping and Track your Packages</h2>
+            <p style="margin-top: 30px; margin-bottom: 10px; outline: 0px; font-family: Arial, Helvetica, sans-serif; font-size: 14px; font-stretch: normal; line-height: 18px; text-align: justify;" dir="ltr">PostScan Mail provides you with a U.S. Street Address that you can use for shopping from any U.S. store or retailer. &nbsp;Shop from thousands of online retailer and auction sites and provide your U.S. address for your order delivery. Upon receiving your packages you get notified straight away. You can then choose to <a style="color:#fff; text-decoration: underline;" href="https://www.postscanmail.com/services/mail/forwarding">forward your packages</a> anywhere in the world and for competitive shipping rates, which means better savings with PostScan Mail.</p>
+
+            <p class="text-center main_intro" style="margin-top: 30px; margin-bottom: 10px; outline: 0px; font-family: Arial, Helvetica, sans-serif; font-size: 14px; font-stretch: normal; line-height: 18px; text-align: justify;" dir="ltr">PostScan Mail has also introduced a <a style="color:#fff; text-decoration: underline;" title="Mail Consolidation" href="https://www.postscanmail.com/features/package-consolidation">Mail Consolidation Feature </a> enabling you to include several small packages into one single package saving your <a title="Shipping Fees" style="color:#fff; text-decoration: underline;" href="https://www.postscanmail.com/features/shipping/fees">Shipping Fees</a>.<br><br><br></p>
+            <h2 class="text-center">So what happens when you sign up<br> for a PostScan Mail shipping address?</h2>
+            
+            <ul class="shippingsteps">
+              <li class="grid-7">Get a U.S.-based <a href="https://www.postscanmail.com/services/virtual-address/po-box-with-street-address">virtual street address</a> for online shopping, not only a P.O. box</li>
+              <li class="grid-5">Consolidate several packages into one</li>
+              <li class="grid-7">Receive competitive shipping rates</li>
+              <li class="grid-5">Online package tracking</li>
+            </ul>
+<p class="clearboth"><br><br><br></p>
+            <p class="text-center"><a title="Learn how our mail digitization services work" href="https://www.postscanmail.com/how_it_works.html" target="_blank">Learn how our mail digitization services work</a> with ultimate privacy considerations and optimal convenience for you.</p>
+        </div>
+    </div>
+</section>
